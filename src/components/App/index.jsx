@@ -1,5 +1,5 @@
 import Modal from '../UI_Kit/modal'
-import ChangeLoginOrPassword from '../Modals/change-login-and-password'
+import ConfirmProgress from '../Modals/confirm-progress'
 import GlobalStyles from './global'
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
         <>
             <GlobalStyles />
             <Modal>
-                <ChangeLoginOrPassword />
+                <ConfirmProgress />
             </Modal>
         </>
     ) 
