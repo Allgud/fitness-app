@@ -1,5 +1,5 @@
 import Modal from '../UI_Kit/modal'
-import LoginAndSignUp from '../Modals/login-and-signup'
+import TrainingChoice from '../Modals/training-choice'
 import GlobalStyles from './global'
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
         <>
             <GlobalStyles />
             <Modal>
-                <LoginAndSignUp />
+                <TrainingChoice />
             </Modal>
         </>
     ) 
