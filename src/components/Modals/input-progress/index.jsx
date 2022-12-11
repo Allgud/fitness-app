@@ -1,5 +1,3 @@
-import React from "react";
-
 import FormInput from '../../FormInput'
 import Button from '../../UI_Kit/button'
 

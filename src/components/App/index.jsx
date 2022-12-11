@@ -1,6 +1,5 @@
-import React from "react"
 import Modal from '../UI_Kit/modal'
-import InputProgress from '../Modals/input-progress'
+import LoginAndSignUp from '../Modals/login-and-signup'
 import GlobalStyles from './global'
 
 const App = () => {
@@ -8,7 +7,7 @@ const App = () => {
         <>
             <GlobalStyles />
             <Modal>
-                <InputProgress />
+                <LoginAndSignUp />
             </Modal>
         </>
     ) 
