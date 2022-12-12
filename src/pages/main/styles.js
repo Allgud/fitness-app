@@ -30,9 +30,9 @@ export const MainTitle = styled.h1`
 
 export const SaleStickerBox = styled.div`
     width: 212px;
-    height: 152px;
+    height: 160px;
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: -45px;
     background-image: url('/assets/img/sale-sticker.png');
     background-repeat: no-repeat;
