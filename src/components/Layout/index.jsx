@@ -2,9 +2,11 @@ import { useEffect, useState } from 'react'
 import { useLocation, Outlet } from 'react-router-dom'
 import Header from '../Header'
 import * as S from './styles'
+import { useModal } from '../../hooks/useModal'
 
 const Layout = () => {
     const [main, setMain] = useState(false)
+    const { active, toggleActive } = useModal()
     const location = useLocation()
 
     useEffect(() => {
@@ -14,6 +16,12 @@ const Layout = () => {
         }
         setMain(false)
     }, [main])
+
+    useEffect(() => {
+        if(active) {
+            toggleActive()
+        }
+    }, [])
 
     return(
        <S.Wrapper $main={main}>

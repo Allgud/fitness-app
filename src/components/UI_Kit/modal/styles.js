@@ -7,6 +7,9 @@ export const Modal = styled.div`
     justify-content: center;
     align-items: center;
     background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
 `
 
 export const ModalContent = styled.div`

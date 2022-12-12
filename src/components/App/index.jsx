@@ -4,7 +4,7 @@ import '../../../node_modules/overlayscrollbars/styles/overlayscrollbars.min.css
 
 const App = () => {
     return(
-        <>
+       <>
             <GlobalStyles />
             <AppRoutes />
         </>

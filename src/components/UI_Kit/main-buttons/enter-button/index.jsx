@@ -1,8 +1,8 @@
 import * as S from './styles'
 
-const EnterButton = () => {
+const EnterButton = ({toggleModal}) => {
     return(
-        <S.EnterButton>Войти</S.EnterButton>
+        <S.EnterButton onClick={toggleModal}>Войти</S.EnterButton>
     )
 }
 
