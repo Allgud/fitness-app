@@ -4,8 +4,8 @@ const GlobalStyles = createGlobalStyle`
     @font-face {
         font-family: 'StratosSkyeng';
         src: local('StratosSkyeng'), local('StratosSkyeng'),
-            url('../../fonts/Stratos-Mefium.woff2') format('woff2'),
-            url('../../fonts/Stratos-Medium.woff') format('woff');
+            url('/fonts/Stratos-Medium.woff2') format('woff2'),
+            url('/fonts/Stratos-Medium.woff') format('woff');
         font-weight: 400;
         font-style: normal;
     }

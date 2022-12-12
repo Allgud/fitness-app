@@ -1,14 +1,12 @@
-import Modal from '../UI_Kit/modal'
-import ConfirmProgress from '../Modals/confirm-progress'
 import GlobalStyles from './global'
+import AppRoutes from '../../routes'
+import '../../../node_modules/overlayscrollbars/styles/overlayscrollbars.min.css'  
 
 const App = () => {
     return(
         <>
             <GlobalStyles />
-            <Modal>
-                <ConfirmProgress />
-            </Modal>
+            <AppRoutes />
         </>
     ) 
 }

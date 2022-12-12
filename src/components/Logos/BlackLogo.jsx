@@ -1,5 +1,3 @@
-import blackLogo from '../../assets/logo-bl.png'
-
 export default () => (
-    <img src={blackLogo}/>
+    <img src='/assets/img/logo-bl.png'/>
 )
