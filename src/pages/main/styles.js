@@ -38,7 +38,6 @@ export const SaleStickerBox = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 `
 
 export const MainButtonBox = styled.div`
