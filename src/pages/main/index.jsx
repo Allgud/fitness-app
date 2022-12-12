@@ -9,6 +9,7 @@ const MainPage = () => {
     return(
         <S.MainPage>
             <S.MainTitle>Начните заниматься спортом и улучшите качество жизни</S.MainTitle>
+            <S.SaleStickerBox />
             <S.MainContent>
                 {
                     courses.map(el => (

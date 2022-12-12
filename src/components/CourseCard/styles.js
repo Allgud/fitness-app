@@ -8,6 +8,7 @@ export const CourseCard = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    cursor: pointer;
 `
 
 export const CourseTitle = styled.div`

@@ -4,6 +4,7 @@ export const MainPage = styled.div`
     width: 100%;
     height: 100%;
     padding-bottom: 60px;
+    position: relative;
 `
 
 export const MainContent = styled.div`
@@ -25,6 +26,19 @@ export const MainTitle = styled.h1`
     letter-spacing: -1.16878px;
     color: #F4F4FF;
     margin-top: 18px;
+`
+
+export const SaleStickerBox = styled.div`
+    width: 212px;
+    height: 152px;
+    position: absolute;
+    top: 20px;
+    right: -45px;
+    background-image: url('/assets/img/sale-sticker.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 `
 
 export const MainButtonBox = styled.div`
